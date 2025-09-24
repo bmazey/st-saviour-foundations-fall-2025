@@ -1,8 +1,6 @@
 from estimate import rounder
 
 def test_rounder():
-    # TODO BONUS +5 ensure that any floating decimal >= .5 gets rounded up
-    
     # assert rounder(0) == 0
     # assert rounder(.5) == 1
 
@@ -11,5 +9,4 @@ def test_rounder():
 
     # assert rounder(7.6) == 8
     # assert rounder(7.9) == 8
-
-    return
+    pass
