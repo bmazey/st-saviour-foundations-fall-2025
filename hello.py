@@ -7,6 +7,8 @@ if __name__ == '__main__':
 
     x = int(f) 
 
+    s = 'september' 
+
     print(x)
     # print(chr(sum(range(ord(min(str(not())))))))
-    
+
