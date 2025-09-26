@@ -11,5 +11,12 @@ def classify(price: float) -> str:
     """
 
     # TODO hello from darsyll!
-
-    return ''
+    if price > 0 and price <= 5.0:
+       return 'dunkin donuts'
+    if price > 5 and price < 11.0:
+        return 'blank street'
+    if price >= 11.0 and price < 17.50:
+        return 'starbucks'
+    if price >= 17.50:
+        return 'cafe paradiso'
+    return 'error'
