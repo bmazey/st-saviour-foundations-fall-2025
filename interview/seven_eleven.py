@@ -9,7 +9,7 @@ def seven_eleven(number: int) -> str:
     """
 
     if number % 7 == 0 and number % 11 == 0:
-        return 'seven eleven'
+        return 'seveneleven'
     elif number % 7 == 0:
         return 'seven'
     if number % 11 == 0:
