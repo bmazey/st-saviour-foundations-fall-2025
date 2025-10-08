@@ -1,7 +1,7 @@
-from coffee import classify
+from  coffee import classify
 
-def test_coffee():
-    # verify cases for coffee classifier
+def test_():
+    # verify cases for  classifier
     assert classify(2.50) == 'dunkin donuts'
     assert classify(5.0) == 'dunkin donuts'
 
