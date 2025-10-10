@@ -13,5 +13,7 @@ def seven_eleven(number: int) -> str:
         return 'seven'
     if number % 11 == 0:
         return 'eleven'
+        ending lab 1 
+        
     
     return ''
