@@ -1,5 +1,4 @@
 from negative import find_negative
-
 def test_find_negative():
     numbers = [6, 5, 4, -7, 8]
     assert find_negative(numbers) == -7
