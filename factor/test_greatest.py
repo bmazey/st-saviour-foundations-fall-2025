@@ -6,3 +6,6 @@ def test_find_greatest():
 
     numbers = [7, 8, 4, 4, 1, 0]
     assert find_greatest(numbers) == 8
+
+
+    greatest = numbers [0]
