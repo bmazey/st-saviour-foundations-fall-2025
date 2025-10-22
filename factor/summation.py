@@ -11,5 +11,6 @@ def summation(numbers: list[int]) -> int:
     while i < len(numbers):
         result += numbers[i]
         i += 1
+        
     return result
 
