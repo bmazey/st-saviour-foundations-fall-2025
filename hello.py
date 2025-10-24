@@ -8,4 +8,4 @@ print (len(s))
 
 1 = 0
 while i < len (s):
- print ' the character we\'re on is ... ' + s [i] + ' index':) 
+ print ' the character we\'re on is ... ' + s [i] + ' index':
