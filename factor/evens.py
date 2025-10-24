@@ -9,4 +9,9 @@ def evens_only(numbers: list[int]) -> list[int]:
 
     # TODO +5 Bonus
 
-    return []
+    evens = []
+    for number in numbers:
+        if number % 2 == 0:
+            evens.append(number)
+    
+    return evens
