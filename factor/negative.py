@@ -13,5 +13,3 @@ def find_negative(numbers: list[int]) -> int:
             return number 
     
     return 0
-
-    

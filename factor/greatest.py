@@ -12,10 +12,3 @@ def find_greatest(numbers: list[int]) -> int:
             greatest = number 
 
     return greatest 
-
-    
-
-
-    
-
-
