@@ -7,6 +7,9 @@ def evens_only(numbers: list[int]) -> list[int]:
         ex: [2, 7, 12, 1, 10] -> [2, 12, 10]
     """
 
-    # TODO +5 Bonus
+    evens = []
+    for number in numbers:
+        if number % 2 == 0:
+            evens.append(number)
 
-    return []
+    return evens
