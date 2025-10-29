@@ -5,7 +5,6 @@ if __name__ == '__main__':
 s = 'october'
 
 print (len(s))
-
-1 = 0
+i = 0
 while i < len (s):
     print(' the character we\'re on is ... ' + s [i] + ' index:')
